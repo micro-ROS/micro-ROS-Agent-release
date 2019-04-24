@@ -1,0 +1,12 @@
+Source: ros-crystal-micro-ros-agent
+Section: misc
+Priority: extra
+Maintainer: Borja Outerelo <borjaouterelo@eprosima.com>
+Build-Depends: debhelper (>= 9.0.0), ros-crystal-ament-cmake, ros-crystal-ament-lint-auto, ros-crystal-ament-lint-common, ros-crystal-fastcdr, ros-crystal-fastrtps, ros-crystal-microxrcedds-agent-cmake-module, ros-crystal-rclcpp, ros-crystal-rosidl-cmake, ros-crystal-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-crystal-micro-ros-agent
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-crystal-ament-cmake, ros-crystal-fastcdr, ros-crystal-fastrtps, ros-crystal-microxrcedds-agent-cmake-module, ros-crystal-rclcpp, ros-crystal-rosidl-cmake, ros-crystal-rosidl-parser, ros-crystal-ros-workspace
+Description: DDS-XCRE agent implementation
